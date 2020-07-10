@@ -1,4 +1,8 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
 }
